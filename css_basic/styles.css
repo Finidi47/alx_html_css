@@ -1,14 +1,23 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: bisque;
 }
 
 header{
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: wheat;
+    background: lightgoldenrodyellow;
     width: 100%;
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 15px;
+    border-radius: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
 }
 
 main{
@@ -19,9 +28,15 @@ main{
 article{
     flex: 2;
     overflow-y: auto;
+    background-color: mintcream;
 }
 
 aside{
     flex: 1;
     overflow-y: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
 }
