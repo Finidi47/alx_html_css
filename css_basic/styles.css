@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: wheat;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex: auto;
+}
+
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
