@@ -181,29 +181,31 @@ main section .banner_heading{
     gap: 2rem;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    height: 15.56em;
+    background-color: #071629;
+}
+
 .footer_container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 65rem;
 }
 
 footer section{
     display: flex;
     flex-direction: column;
-    border: 2px solid brown;
-    height: inherit;
+    width: 100%;
     align-items: center;
     justify-content: center;
+    gap: 5rem;
 }
-/* 
-footer section p{
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-} */
 
-footer{
-        background-color: #071629;
-        color: #FFFFFF;
-        height: 15.56em;
+.footer_container div a{
+    margin: 0.75em
 }
