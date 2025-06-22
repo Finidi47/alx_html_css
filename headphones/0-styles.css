@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+@media screen and (max-width: 480px){
+
+}
+
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+a:hover,
+a:active{
+    color: #FF6565;
+}
+
+button:hover,
+button:active{
+    opacity: o.9;
+}
