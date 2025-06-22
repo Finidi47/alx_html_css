@@ -10,8 +10,8 @@
 }
 
 body{
-    max-width: 1000px;
-    margin: 0 auto;
+    /* max-width: 1000px; */
+    /* margin: 0 auto; */
 }
 
 a:hover,
@@ -22,4 +22,66 @@ a:active{
 button:hover,
 button:active{
     opacity: o.9;
+}
+
+header{
+    background-image: url(images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 46em;
+
+}
+
+.logo{
+    width: 161px;
+    height: 32px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+    margin-right: 33px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 30rem;
+    color: white;
+    margin-top: 3rem;
+}
+
+header section h2{
+    font-size: 32px;
+}
+
+.cta{
+    background-color: #FF6565;
+    width: 162px;
+    height: 44px;
+    margin: 3em auto;
+    border-radius: 20px;
+    border: none;
+}
+
+.wrap-paragraph{
+    text-wrap: wrap;
+    width: 30%;
+    text-align: center;
 }
