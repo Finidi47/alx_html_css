@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 480px){
+
+}
+
+body{
+    /* max-width: 1000px; */
+    /* margin: 0 auto; */
+}
+
+a:hover,
+a:active{
+    color: #FF6565;
+}
+
+button:hover,
+button:active{
+    opacity: o.9;
+}
+
+header{
+    background-image: url(images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 46em;
+
+}
+
+.logo{
+    width: 161px;
+    height: 32px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+    margin-right: 33px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 30rem;
+    color: white;
+    margin-top: 3rem;
+}
+
+.heading2{
+    font-size: 32px;
+    color: white;
+}
+
+.cta{
+    background-color: #FF6565;
+    width: 162px;
+    height: 44px;
+    margin: 3em auto;
+    border-radius: 20px;
+    border: none;
+}
+
+.cta:hover{
+    opacity: 0.7;
+}
+
+.wrap-paragraph{
+    text-wrap: wrap;
+    width: 30%;
+    text-align: center;
+}
+
+/* what we do  */
+
+.work-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3em;
+}
+
+.icon-container{
+    display: flex;
+}
+
+.icon-container div p{
+    text-wrap: wrap;
+    width: 65%;
+}
+
+.icon-container div img{
+    height: 67px;
+    margin-bottom: 3em;
+}
+
+/* Our results  */
+.results-container{
+    background-image: url(images/headphones_hero_2.jpg);
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3em;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.results-container .wrap-paragraph{
+    color: white;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.item{
+    color: white;
+    width: 157.7px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF6565;
+    clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
+}
