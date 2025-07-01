@@ -132,4 +132,26 @@ header section{
     color: white;
 }
 
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
 
+.item{
+    /* background-image: url(images/pentagone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    color: white;
+    /* width: 145px;
+    height: 135px; */
+    width: 157.7px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF6565;
+    clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
+}
