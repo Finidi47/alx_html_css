@@ -132,27 +132,6 @@ header section{
     color: white;
 }
 
-.items{
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-}
-
-.item{
-    background-image: url(images/pentagone.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    width: 145px;
-    height: 135px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
 /* contact section  */
 .form-section{
     height: 550px;
@@ -196,5 +175,23 @@ input{
 .social-links{
     display: flex;
     gap: 1.4em;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    /* background-image: url(images/pentagone.png);
+    /* background-color: #FF6565; */
+    color: white;
+    /* border: 2px solid greenyellow; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
