@@ -100,6 +100,7 @@ header section{
     gap: 3rem;
     margin-top: 3em;
 }
+
 .work_heading{
     animation: workAnim 2s ease 2s 2 normal forwards;
 }
@@ -116,6 +117,7 @@ header section{
 		transform-origin: 50% 0;
 	}
 }
+
 
 .icon-container{
     display: flex;
@@ -155,6 +157,7 @@ header section{
 }
 
 .item{
+    animation: myAnim 2s ease 2s 2 alternate-reverse forwards;
     background-image: url(images/pentagone.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -166,9 +169,8 @@ header section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    animation: myAnim 2s ease 2s 2 alternate-reverse forwards;
 }
-@keyframes myAnim{
+@keyframes myAnim {
 	0% {
 		animation-timing-function: ease-in;
 		opacity: 1;
@@ -259,4 +261,5 @@ input{
     display: flex;
     gap: 1.4em;
 }
+
 
